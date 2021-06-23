@@ -3,4 +3,7 @@
     <string name="button_name">Button</string>
     <string name="button_name2">Button2</string>
     <string name="hello">Hello</string>
+    <string name="edit">編集</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
 </resources>

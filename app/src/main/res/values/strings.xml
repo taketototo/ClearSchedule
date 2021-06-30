@@ -16,4 +16,19 @@
     <string name="hello_world">Hello Square World!</string>
 
 
+    <string name="hello">Hello</string>
+    <string name="edit">編集</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
+    <string name="addPlans">  予定を入力してください</string>
+    <string name="color">  色</string>
+    <string name="shape">  形</string>
+    <string name="label">ラベルの変更</string>
+    <string name="hint"></string>
+    <string name="title_activity_editscreen">EditscreenActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
 </resources>

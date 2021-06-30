@@ -26,8 +26,15 @@
             android:value="true" />
 
         <activity
-            android:name=".StartscreenActivity"
-            android:label="@string/title_activity_startscreen">
+            android:name=".EditscreenActivity"
+            android:label="@string/title_activity_editscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

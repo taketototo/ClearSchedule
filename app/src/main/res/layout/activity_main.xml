@@ -100,11 +100,14 @@
         android:background="#FFFFFF"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="  予定を入力してください"
+        android:text="@string/addPlans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135" />
+        app:layout_constraintVertical_bias="0.135"
+        android:autofillHints=""
+        tools:targetApi="o"
+        android:hint="@string/hint"/>
 
     <Button
         android:id="@+id/button3"
@@ -113,7 +116,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="#FFFFFF"
-        android:text="  色"
+        android:text="@string/color"
         android:textAlignment="viewStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -129,7 +132,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="#FFFFFF"
-        android:text="  形"
+        android:text="@string/shape"
         android:textAlignment="viewStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -145,7 +148,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="#FFFFFF"
-        android:text="ラベルの変更"
+        android:text="@string/label"
         android:textAlignment="center"
         android:textColor="#F44336"
         app:layout_constraintBottom_toBottomOf="parent"

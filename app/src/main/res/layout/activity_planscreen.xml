@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EditscreenActivity">
+    tools:context=".PlanscreenActivity">
 
 
     <FrameLayout
@@ -61,7 +61,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="#55C4D4"
-        android:text="@string/cancel"
+        android:text="@string/cancel_plan"
         android:textColor="#636363"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -79,7 +79,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/save"
+        android:text="@string/addition"
         android:textColor="#636363"
         android:background="#55C4D4"
         android:textSize="24sp"
@@ -97,17 +97,17 @@
         android:layout_height="58dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:autofillHints=""
         android:background="#FFFFFF"
         android:ems="10"
+        android:hint="@string/hint"
         android:inputType="textPersonName"
-        android:text="@string/addPlans"
+        android:text="@string/title"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135"
-        android:autofillHints=""
-        tools:targetApi="o"
-        android:hint="@string/hint"/>
+        app:layout_constraintVertical_bias="0.082"
+        tools:targetApi="o" />
 
     <Button
         android:id="@+id/button3"
@@ -123,7 +123,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282" />
+        app:layout_constraintVertical_bias="0.173" />
 
     <Button
         android:id="@+id/button4"

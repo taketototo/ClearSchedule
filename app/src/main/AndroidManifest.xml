@@ -26,6 +26,24 @@
             android:value="true" />
 
         <activity
+            android:name=".PlanscreenActivity"
+            android:label="@string/title_activity_planscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomescreenActivity"
+            android:label="@string/title_activity_homescreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".EditscreenActivity"
             android:label="@string/title_activity_editscreen">
             <intent-filter>
@@ -34,7 +52,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StartscreenActivity">
+        <activity
+            android:name=".StartscreenActivity"
+            android:label="StartscreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

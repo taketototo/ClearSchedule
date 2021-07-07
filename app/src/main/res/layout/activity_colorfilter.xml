@@ -40,6 +40,19 @@ tools:context=".ColorfilterActivity">
 
 </FrameLayout>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="134dp"
+        android:layout_height="56dp"
+        android:text="@string/buttonP"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="@+id/frameLayout"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.062" />
+
     <Button
         android:id="@+id/backbutton"
         android:layout_width="120dp"

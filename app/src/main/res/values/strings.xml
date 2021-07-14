@@ -36,5 +36,7 @@
     <string name="cancel_plan">キャンセル</string>
     <string name="addition">追加</string>
     <string name="title">  タイトル</string>
+    <string name="all_day">終日ON</string>
+    <string name="label1">ラベル</string>
     <string name="title_activity_planscreen">PlanscreenActivity</string>
 </resources>

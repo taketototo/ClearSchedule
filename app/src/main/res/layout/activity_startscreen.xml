@@ -50,7 +50,6 @@
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textSize="sp"
         app:layout_constraintStart_toStartOf="@+id/frameLayout"
         app:layout_constraintTop_toTopOf="@+id/frameLayout"
         tools:text="@string/button2" />
@@ -59,12 +58,17 @@
         android:id="@+id/button3"
         android:layout_width="140dp"
         android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/shape_button3"
         android:text="@string/button3"
         android:textColor="#FFFFFF"
-        android:textSize="sp"
         app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
-        app:layout_constraintEnd_toEndOf="@+id/frameLayout" />
+        app:layout_constraintEnd_toEndOf="@+id/frameLayout"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.393" />
 
     <Button
         android:id="@+id/button4"
@@ -76,7 +80,6 @@
         android:background="@drawable/shape_button4"
         android:text="@string/button4"
         android:textColor="#FFFFFF"
-        android:textSize="sp"
         app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
         app:layout_constraintStart_toStartOf="@+id/frameLayout"
         app:layout_constraintTop_toBottomOf="@+id/button2"
@@ -91,7 +94,6 @@
         android:background="@drawable/shape_button5"
         android:text="@string/button5"
         android:textColor="#FFFFFF"
-        android:textSize="sp"
         app:layout_constraintEnd_toEndOf="@+id/frameLayout"
         app:layout_constraintTop_toTopOf="@+id/frameLayout" />
 

@@ -38,5 +38,7 @@
     <string name="title">  タイトル</string>
     <string name="all_day">終日ON</string>
     <string name="label1">ラベル</string>
+    <string name="notification">通知</string>
+    <string name="repetition">繰り返し</string>
     <string name="title_activity_planscreen">PlanscreenActivity</string>
 </resources>

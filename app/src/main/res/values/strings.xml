@@ -23,9 +23,15 @@
     <string name="color">色</string>
     <string name="shape">形</string>
     <string name="label">ラベルの変更</string>
-
+    <string name="cancel_plan">キャンセル</string>
+    <string name="addition">追加</string>
+    <string name="title">  タイトル</string>
+    <string name="all_day">終日ON</string>
+    <string name="label1">ラベル</string>
+    <string name="notification">通知</string>
+    <string name="repetition">繰り返し</string>
+    <string name="title_activity_planscreen">PlanscreenActivity</string>
     <string name="hello_world">Hello Square World!</string>
     <string name="title_activity_colorfilter">ColorfilterActivity</string>
-
 
 </resources>

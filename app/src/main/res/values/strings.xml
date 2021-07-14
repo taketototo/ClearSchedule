@@ -6,11 +6,19 @@
     <string name="button3">A型\n全色見えづらい</string>
     <string name="button4">T型\n青色が見えづらい</string>
     <string name="button5">D型\n緑色が見えづらい</string>
+    <string name="buttonP">P型</string>
+    <string name="buttonA">A型</string>
+    <string name="buttonT">T型</string>
+    <string name="buttonD">D型</string>
     <string name="skipbutton">Skip</string>
     <string name="backbutton">戻る</string>
     <string name="finishbutton">完了</string>
     <string name="button7">色覚多様性の型を選択してください</string>
+<<<<<<< HEAD
     <string name="button8">ラベルの色を選択してください</string>
+=======
+    <string name="button8">ラベルに使用する色を選択してください</string>
+>>>>>>> origin/master
     <string name="title_activity_startscreen">StartscreenActivity</string>
     <!--
     This string is used for square devices and overridden by hello_world in

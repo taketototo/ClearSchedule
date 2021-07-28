@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EditscreenActivity">
+    tools:context=".PlanscreenActivity">
 
 
     <FrameLayout
@@ -61,7 +61,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="#55C4D4"
-        android:text="@string/cancel"
+        android:text="@string/cancel_plan"
         android:textColor="#636363"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,17 +73,17 @@
 
     <Button
         android:id="@+id/button2"
+        style="?android:attr/borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/save"
-        android:textColor="#636363"
         android:background="#55C4D4"
+        android:text="@string/addition"
+        android:textColor="#636363"
         android:textSize="24sp"
-        style="?android:attr/borderlessButtonStyle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -97,34 +97,33 @@
         android:layout_height="58dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:background="#FFFFFF"
+        android:autofillHints=""
+        android:background="#FFFFF3"
         android:ems="10"
+        android:hint="@string/hint"
         android:inputType="textPersonName"
-        android:text="@string/addPlans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135"
-        android:autofillHints=""
-        tools:targetApi="o"
-        android:hint="@string/hint"/>
-
+        app:layout_constraintVertical_bias="0.082"
+        tools:targetApi="o" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="424dp"
-        android:layout_height="71dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:background="#FFFFFF"
         android:text="@string/color"
         android:textAlignment="viewStart"
+        android:background="#FFFFF3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282" />
+        app:layout_constraintVertical_bias="0.182"
+        style="?android:attr/borderlessButtonStyle"/>
 
     <Button
         android:id="@+id/button4"
@@ -132,15 +131,15 @@
         android:layout_height="71dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:background="#FFFFFF"
-        android:text="@string/shape"
+        android:background="#FFFFF3"
+        android:text="@string/label1"
         android:textAlignment="viewStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45" />
+        app:layout_constraintVertical_bias="0.329" />
 
     <Button
         android:id="@+id/button5"
@@ -148,16 +147,48 @@
         android:layout_height="71dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:background="#FFFFFF"
+        android:background="#FFFFF3"
         android:text="@string/label"
-        android:textAlignment="center"
-        android:textColor="#F44336"
+        android:textAlignment="viewStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.933" />
+        app:layout_constraintVertical_bias="0.439" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="424dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFFFF3"
+        android:text="@string/repetition"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1.1"
+        android:text="@string/all_day"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.204" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

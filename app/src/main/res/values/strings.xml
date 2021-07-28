@@ -2,19 +2,36 @@
     <string name="app_name">Clear Schedule</string>
     <string name="button_name">Button</string>
     <string name="button_name2">Button2</string>
-    <string name="hello">Hello</string>
-    <string name="edit">編集</string>
+    <string name="button2">P型\n赤色が見えづらい</string>
+    <string name="button3">A型\n全色見えづらい</string>
+    <string name="button4">T型\n青色が見えづらい</string>
+    <string name="button5">D型\n緑色が見えづらい</string>
+    <string name="buttonP">P型</string>
+    <string name="buttonA">A型</string>
+    <string name="buttonT">T型</string>
+    <string name="buttonD">D型</string>
+    <string name="skipbutton">Skip</string>
+    <string name="backbutton">戻る</string>
+    <string name="finishbutton">完了</string>
+    <string name="button7">色覚多様性の型を選択してください</string>
+    <string name="button8">ラベルに使用する色を選択してください</string>
+    <string name="title_activity_startscreen">StartscreenActivity</string>
     <string name="cancel">キャンセル</string>
+    <string name="edit">編集</string>
     <string name="save">保存</string>
-    <string name="addPlans">  予定を入力してください</string>
-    <string name="color">  色</string>
-    <string name="shape">  形</string>
+    <string name="addPlans">予定を入力してください</string>
+    <string name="color">色</string>
+    <string name="shape">形</string>
     <string name="label">ラベルの変更</string>
-    <string name="hint"></string>
-    <string name="title_activity_editscreen">EditscreenActivity</string>
-    <!--
-    This string is used for square devices and overridden by hello_world in
-    values-round/strings.xml for round devices.
-    -->
-    <string name="hello_world">Hello Square World!</string>
+    <string name="cancel_plan">キャンセル</string>
+    <string name="addition">追加</string>
+    <string name="title">  タイトル</string>
+    <string name="all_day">終日ON</string>
+    <string name="label1">ラベル</string>
+    <string name="notification">通知</string>
+    <string name="repetition">繰り返し</string>
+    <string name="title_activity_planscreen">PlanscreenActivity</string>
+    <string name="title_activity_colorfilter">ColorfilterActivity</string>
+    <string name="hint">予定を入力してください</string>
+
 </resources>

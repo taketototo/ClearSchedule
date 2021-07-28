@@ -32,5 +32,6 @@
     <string name="repetition">繰り返し</string>
     <string name="title_activity_planscreen">PlanscreenActivity</string>
     <string name="title_activity_colorfilter">ColorfilterActivity</string>
+    <string name="hint">予定を入力してください</string>
 
 </resources>

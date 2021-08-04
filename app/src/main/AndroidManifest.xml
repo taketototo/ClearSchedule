@@ -4,8 +4,10 @@
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
+
     <!--<uses-feature android:name="android.hardware.type.watch" />
     エミュレータ起動時のエラーに対処する為にコメントアウトしときます-->
+
 
     <application
         android:allowBackup="true"
@@ -14,14 +16,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <uses-library
+        <!--<uses-library
             android:name="com.google.android.wearable"
             android:required="true" />
         
         <meta-data
             android:name="com.google.android.wearable.standalone"
-            android:value="true" />
+            android:value="true" />-->
+        <activity
+            android:name=".StartscreenActivity"
+            android:label="@string/title_activity_startscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".PlanscreenActivity"
             android:label="@string/title_activity_planscreen">
@@ -49,15 +59,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".StartscreenActivity"
-            android:label="@string/title_activity_startscreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <!--<activity android:name=".HomescreenActivity"></activity>-->
     </application>
 
 </manifest>

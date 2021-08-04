@@ -4,7 +4,8 @@
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    <uses-feature android:name="android.hardware.type.watch" />
+    <!--<uses-feature android:name="android.hardware.type.watch" />
+    エミュレータ起動時のエラーに対処する為にコメントアウトしときます-->
 
     <application
         android:allowBackup="true"

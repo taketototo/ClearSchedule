@@ -47,12 +47,13 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/shape_button2"
+        android:text="@string/button2"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#FFFFFF"
         app:layout_constraintStart_toStartOf="@+id/frameLayout"
         app:layout_constraintTop_toTopOf="@+id/frameLayout"
-        tools:text="@string/button2" />
+         />
 
     <Button
         android:id="@+id/button3"

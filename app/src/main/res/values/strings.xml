@@ -15,7 +15,6 @@
     <string name="finishbutton">完了</string>
     <string name="button7">色覚多様性の型を選択してください</string>
     <string name="button8">ラベルに使用する色を選択してください</string>
-    <string name="title_activity_startscreen">StartscreenActivity</string>
     <string name="cancel">キャンセル</string>
     <string name="edit">編集</string>
     <string name="save">保存</string>
@@ -32,6 +31,11 @@
     <string name="repetition">繰り返し</string>
     <string name="title_activity_planscreen">PlanscreenActivity</string>
     <string name="title_activity_colorfilter">ColorfilterActivity</string>
+    <string name="title_activity_homescreen">HomescreenActivity</string>
+    <string name="title_activity_editscreen">EditscreenActivity</string>
+    <string name="title_activity_startscreen">StartscreenActivity</string>
     <string name="hint">予定を入力してください</string>
+    <string name="editbutton">＋</string>
+
 
 </resources>
